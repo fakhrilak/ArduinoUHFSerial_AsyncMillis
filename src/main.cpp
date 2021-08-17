@@ -76,7 +76,7 @@ void setup (){
   String tkn = doc["token"];
   token = tkn;
 
-  Socket.begin("192.168.10.111",3004);
+  Socket.begin("192.168.10.111",3004); 
   Serial.println("connect?");
   // Socket.on("changeStatus60f50845aefb7b6b73a1f636",event);
   Socket.on("giveStatus60f50845aefb7b6b73a1f636",event1);
